@@ -18,12 +18,11 @@ After you've executed the setup any file within the $HOME folder can be versione
 
 ```shell
 config status
-config add .vimrc
-config commit -m "Add vimrc"
+config add .bash_profile
+config commit -m "Add bash_profile"
 config add .bashrc
 config commit -m "Add bashrc"
 config push
 ```
 
 Reference: [The best way to store your dotfiles: A bare Git repository](https://www.atlassian.com/git/tutorials/dotfiles)
-https://www.atlassian.com/git/tutorials/dotfiles
